@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                 }
 
     // Your e-mailadress.
-    $recipient = "webdesign@idealuminosa.it";
+    $recipient = "";
     // Mail subject
     $subject = '=?UTF-8?B?' . $subject . '?=';
     $subject = 'Ottima notizia! Hai ricevuto una richiesta di prenotazione da ' . "$email";
